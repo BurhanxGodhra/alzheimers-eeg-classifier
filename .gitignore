@@ -1,0 +1,29 @@
+# Byte-compiled
+__pycache__/
+*.pyc
+
+# Data (large files)
+data/raw/
+data/processed/
+*.edf
+*.set
+*.gdf
+
+# Model checkpoints (optional – keep if you want to upload small models)
+# *.pth
+# best_model.pth
+
+# Kaggle working dirs
+/kaggle/
+
+# Environment
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
