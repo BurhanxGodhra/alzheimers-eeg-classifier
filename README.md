@@ -21,7 +21,6 @@ The **EEGNet** model was selected for its balance of performance and simplicity.
 
 ## Repository structure
 alzheimers-eeg-classifier/
-
 ├── src/ # core modules (models, training, utils)
 ├── experiments/ # configs and results per model
 ├── notebooks/ # exploration and final training notebook
