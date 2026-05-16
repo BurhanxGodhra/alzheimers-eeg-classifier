@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alzheimers_eeg_classifier"
+version = "1.0.0"
+description = "Binary classification of Alzheimer's disease continuum using resting‑state EEG"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Your Name", email = "26573@jameasaifiyah.edu"}]
+dependencies = [
+    "mne>=1.6.0",
+    "numpy>=1.24.3",
+    "pandas>=2.0.3",
+    "scikit-learn>=1.3.0",
+    "torch>=2.0.1",
+    "torch-geometric>=2.3.1",
+    "matplotlib>=3.7.2",
+    "seaborn>=0.12.2",
+    "tqdm>=4.65.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
