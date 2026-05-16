@@ -1,0 +1,24 @@
+# EEGNet hyperparameters
+model: EEGNet
+in_channels: 19
+n_classes: 2
+dropout: 0.5
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.001
+  epochs: 50
+  patience: 10
+
+loss:
+  name: FocalLoss
+  alpha: 0.25
+  gamma: 2.0
+
+data:
+  sfreq_target: 250
+  epoch_duration: 2.0
+  filter_low: 0.5
+  filter_high: 45.0
+  notch_freq: 50.0
