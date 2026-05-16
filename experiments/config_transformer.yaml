@@ -1,0 +1,23 @@
+model: EEGTransformer
+in_channels: 19
+emb_dim: 32
+num_heads: 4
+hidden_dim: 64
+num_layers: 1
+dropout: 0.5
+num_classes: 2
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.001
+  epochs: 50
+  patience: 10
+
+loss:
+  name: FocalLoss
+  alpha: 0.25
+  gamma: 2.0
+
+data:  # same as above
+  ...
