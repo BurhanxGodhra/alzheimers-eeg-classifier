@@ -19,5 +19,9 @@ loss:
   alpha: 0.25
   gamma: 2.0
 
-data:  # same as above
-  ...
+data:
+  sfreq_target: 250
+  epoch_duration: 2.0
+  filter_low: 0.5
+  filter_high: 45.0
+  notch_freq: 50.0
