@@ -1,0 +1,26 @@
+model: EEGGAT
+num_nodes: 19
+in_features: 64
+hidden: 64
+out_classes: 2
+heads: 4
+dropout: 0.3
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.001
+  epochs: 50
+  patience: 10
+
+loss:
+  name: FocalLoss
+  alpha: 0.25
+  gamma: 2.0
+
+data:
+  sfreq_target: 250
+  epoch_duration: 2.0
+  filter_low: 0.5
+  filter_high: 45.0
+  notch_freq: 50.0
