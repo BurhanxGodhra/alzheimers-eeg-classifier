@@ -214,5 +214,3 @@ bibtex
 ---
 
 This repository serves as a complete, reproducible pipeline for Alzheimer’s EEG classification. Future work will apply the same methodology to prodromal Parkinson’s disease detection using the TDBrain dataset – stay tuned.
-
-## For questions or collaborations, please open an issue on GitHub or contact 26573@jameasaifiyah.edu.
